@@ -1,12 +1,3 @@
-# as we are not allowed to used the built-in function sorted()
-# import builtins
-#
-# round_func = builtins.sorted
-# def checking_sorted(*args, **kwargs):
-#     raise AssertionError("Built-in round is not allowed")
-# builtins.sorted = checking_sorted
-
-
 import unittest
 import ex5
 
