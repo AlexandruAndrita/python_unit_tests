@@ -1,6 +1,4 @@
-from ex3 import Shape
 from ex4 import Rectangle
-from ex5 import Circle
 
 
 class Square(Rectangle):
