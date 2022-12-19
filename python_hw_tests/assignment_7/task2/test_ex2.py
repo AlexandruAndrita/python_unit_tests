@@ -34,3 +34,6 @@ class TestShapes(unittest.TestCase):
     def test_area_square(self):
         s = ex6.Square(0, 0, 10)
         self.assertEqual(s.area(),100.0)
+
+if __name__=='__main__':
+    unittest.main()

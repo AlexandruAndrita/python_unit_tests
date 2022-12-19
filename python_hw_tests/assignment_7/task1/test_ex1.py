@@ -25,3 +25,6 @@ class TestComplexNumber(unittest.TestCase):
         c=ex1.Complex(1.7,-2.9)
         with self.assertRaises(TypeError):
             c_sum=ex1.Complex.add_all(100)
+
+if __name__=='__main__':
+    unittest.main()
