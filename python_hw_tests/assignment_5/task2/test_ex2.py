@@ -24,7 +24,6 @@ def gen_range(start: int,stop: int, step: int = 1):
     >>> gen_range(0,10,0)
     Traceback (most recent call last):
     ValueError: 'step' has been assigned value 0 - imposible
-
     """
 
     if not isinstance(start,int) or not isinstance(stop,int) or not isinstance(step,int):

@@ -12,7 +12,6 @@ def binary_search(elements: list,x) -> bool:
     >>> binary_search([], 22)
     False
     """
-
     if len(elements)==0:
         return False
     if len(elements)==1 and elements[len(elements)-1]!=x:
